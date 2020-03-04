@@ -18,6 +18,8 @@
 		EE01040F24102F32007EA406 /* Song+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE01040E24102F32007EA406 /* Song+Convenience.swift */; };
 		EE01041124103358007EA406 /* PlaylistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE01041024103358007EA406 /* PlaylistController.swift */; };
 		EE01041324103A00007EA406 /* SongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE01041224103A00007EA406 /* SongController.swift */; };
+		EE01041524104F8F007EA406 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE01041424104F8F007EA406 /* PlaylistViewController.swift */; };
+		EE01041724104FA7007EA406 /* SongDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE01041624104FA7007EA406 /* SongDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		EE01040E24102F32007EA406 /* Song+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Song+Convenience.swift"; sourceTree = "<group>"; };
 		EE01041024103358007EA406 /* PlaylistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlaylistController.swift; path = PlaylistCoredata/Model/PlaylistController.swift; sourceTree = SOURCE_ROOT; };
 		EE01041224103A00007EA406 /* SongController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SongController.swift; path = PlaylistCoredata/Model/SongController.swift; sourceTree = SOURCE_ROOT; };
+		EE01041424104F8F007EA406 /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlaylistViewController.swift; path = PlaylistCoredata/Model/PlaylistViewController.swift; sourceTree = SOURCE_ROOT; };
+		EE01041624104FA7007EA406 /* SongDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SongDetailViewController.swift; path = PlaylistCoredata/Model/SongDetailViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,8 @@
 		3E1DF47423F322A90002BC07 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				EE01041424104F8F007EA406 /* PlaylistViewController.swift */,
+				EE01041624104FA7007EA406 /* SongDetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -206,6 +212,8 @@
 				EE01041324103A00007EA406 /* SongController.swift in Sources */,
 				EE01040F24102F32007EA406 /* Song+Convenience.swift in Sources */,
 				EE01040D241028B7007EA406 /* CoredataStack.swift in Sources */,
+				EE01041524104F8F007EA406 /* PlaylistViewController.swift in Sources */,
+				EE01041724104FA7007EA406 /* SongDetailViewController.swift in Sources */,
 				3E1DF45B23F3222E0002BC07 /* SceneDelegate.swift in Sources */,
 				EE01040B24102752007EA406 /* Playlist+Convenience.swift in Sources */,
 				EE01041124103358007EA406 /* PlaylistController.swift in Sources */,
